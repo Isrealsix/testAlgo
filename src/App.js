@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Algo from "./Algo";
 import "./App.css";
 
 function App() {
@@ -12,6 +13,9 @@ function App() {
       >
         change to {newButtonColor}
       </button>
+      <input type="checkbox" />
+
+      <Algo />
     </div>
   );
 }
